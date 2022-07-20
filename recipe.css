@@ -1,0 +1,50 @@
+.container{
+    background-color: rgb(240, 240,240);
+    background-image: url('images/silverware.jpg');
+    margin-left: 2em;
+    margin-right: 2em;
+    height: 100%;
+    display: flex;
+    color: rgb(164, 164,0);
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+    text-align: left;
+    
+}
+.main{
+    text-align: center;
+    font-size: 22pt;
+}
+body{
+    background-color: white;
+    font-size: 11pt;
+    color: rgb(64, 64,64);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: rgb(164, 164,0);
+}
+.first, .second, .third, .fourth, .fifth{
+    text-align: left;
+}
+.d1,.d2,.d3{
+    background-color: rgb(243, 243, 182);
+    margin-left: 70px;
+    margin-right: 120px;
+}
+.side2{
+    float: right;
+    display:inline-block;
+    bottom: 0;
+   
+}
+.inlineP{
+    display: inline-block;
+}

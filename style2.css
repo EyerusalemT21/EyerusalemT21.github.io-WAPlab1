@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    background-color: #efefef;
+}
+.inlineP{
+    display: inline-block;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    height: auto;
+    max-width: 300px;
+    padding: 5px;
+  }
+  .side2{
+    float: right;
+    display:inline-block;
+    bottom: 0;
+   
+}
+.container {
+    background-color: #efefef;
+    margin-left: 2em;
+    margin-right: 2em;
+    height: 100%;
+    display: flex;
+    color: black;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    color: red;
+}
