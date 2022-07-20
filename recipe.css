@@ -1,14 +1,12 @@
 .container{
     background-color: rgb(240, 240,240);
-    background-image: url('images/silverware.jpg');
+    background-image: url('silverware.jpg');
     margin-left: 2em;
     margin-right: 2em;
     height: 100%;
     display: flex;
-    color: rgb(164, 164,0);
     justify-content: center;
     flex-direction: column;
-    align-items: left;
     text-align: left;
     
 }
@@ -16,6 +14,7 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18pt;
     text-align: left;
+    color: rgb(164, 164,0);
     
 }
 .main{
@@ -47,4 +46,7 @@ a{
 }
 .inlineP{
     display: inline-block;
+}
+.copy{
+    font-family: monospace;
 }
